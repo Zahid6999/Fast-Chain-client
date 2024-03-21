@@ -13,7 +13,7 @@ import bank9 from "../../../assets/bank/logo (9).png";
 const MainArea = () => {
   return (
     <>
-      <section className="3xl:max-w-[1202px] w-full mx-auto px-4 sm:px-10 md:px-12 xl:px-20 3xl:px-0 flex flex-col justify-center py-[118px]">
+      <section className="3xl:max-w-[1202px] w-full mx-auto px-4 sm:px-10 md:px-12 xl:px-20 3xl:px-0 flex flex-col justify-center items-center 3xl:items-start py-[118px]">
         <div className="flex flex-col lg:flex-row gap-x-10 xl:gap-x-[210px] gap-y-24 items-center">
           <article>
             <h3 className="text-[40px] text-[#000420] font-normal leading-[52px] tracking-[-0.64px] sora ">
@@ -44,17 +44,19 @@ const MainArea = () => {
               </span>
             </button>
           </article>
-          <img
-            src="https://s3-alpha-sig.figma.com/img/9140/5d33/c95978ac23e8303e0a7f66216307e496?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NCaZIu8Wii2h17gKE4VKpTXjLwZt9lF-u1rFVJhhYnCD5OSx9uK4wJxoZk-dU2sxJzX5dglXgx5OuKI3Tc07RGVTbYl~sLtpinmQJZUc-xFod3Np3JIuodl6fG-GMULcyVRF3PNKqJnKu2jVfvX5EYi-Z58e36-55W5I1U2BePRo2kp6fGiohJxCbHDDF8AGM7ULaP646fPnu~7XrDYFCTm5RXzqBwuVGxEXICBqE0p0g0bxeiGuNVcubrcJ4ByHvVRHnmz9wKdYKo8Pylarcs9XSAhFQSIkmCWc7WkYcw-cLEN0Cptwp5mtKUFeoTpeDdp04aTJH1PCGd~O~~IHmA__"
-            alt=""
-            className=""
-          />
+          <figure>
+            <img
+              src="https://s3-alpha-sig.figma.com/img/9140/5d33/c95978ac23e8303e0a7f66216307e496?Expires=1711929600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=H4Xsca00wNz9AkKG-atwZTFO~ogdzMBGjQOEibh0U8rlXGVSFS9w~KfsR-Cf~vBFACzAUAVHHL5kBsOSvWwYAdHKeMj0CsbVqneCV9giOH0La21v6d6o8n65XThEIBGdv7s5lQzmkmmNyxFUW1QJrlmuv1mbwpqH~~MW4GdQg66oxLNP4IwWftTxk5JJRwkxhFUbVmZURVuycK2dXLgTdJ59fgnNOKHk0YuHKjDXr6GH36-tFm2L~n~Sl9GqIXQ-rx3XkVvJ3--1FejasDinR50jGUAjV9OFaHPLaY3GhCXODe56exeT8ArKIEtQlfGWNgJSAQyxhkov3~1lDvlLlg__"
+              alt=""
+              className=""
+            />
+          </figure>
         </div>
       </section>
 
       <hr className="border[#E8E8E8]" />
       {/* Bank section */}
-      <section className="3xl:max-w-[1202px] w-full mx-auto px-4 sm:px-10 md:px-12 xl:px-20 3xl:px-0 flex flex-col justify-center py-20">
+      <section className="3xl:max-w-[1202px] w-full mx-auto px-4 sm:px-10 md:px-12 xl:px-20 3xl:px-0 flex flex-col justify-center items-center 3xl:items-start py-20">
         <article>
           <h3 className="text-[40px] text-[#000420] font-normal leading-[52px] tracking-[-0.64px] sora ">
             Comence a user seu (cFAST)
@@ -64,7 +66,7 @@ const MainArea = () => {
             beginning
           </p>
         </article>
-        <div className="flex flex-col lg:flex-row gap-x-[30px] gap-y-16 items-center">
+        <div className="flex flex-col lg:flex-row gap-x-[30px] gap-y-16 items-center ">
           <figure className="bg-[#E7EEFA] py-10 pl-[30px] max-w-[570px] border border-[#E1E4F0] rounded-md">
             <h3 className="text-[26px] text-[#404252] font-normal leading-[33.8px] tracking-[-0.416px]">
               Local and Regional Exchanges
@@ -103,7 +105,7 @@ const MainArea = () => {
         </h3>
         <figure className="flex justify-center mt-10">
           <img
-            src="https://s3-alpha-sig.figma.com/img/6e4d/6244/7652330b8f0be2ed4cef8daf11bf3ccb?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mfqa~HV2~Rv~6j7q2Bjko0cu5nDdLXxu-j9szfrOs0jXOTTzwQ9F6u6BxPrRT4cw7oGEcEAxYpWWXnUbQlUG3DFriGxAM~I25JOnsXoJAIfkx7wLLyQpyztvlR3DYwVmb6~vC1NuITrVlKECyIVhAJBErR2wLqo9aUpQHr~kzy034y5r~bQXcRqO~2Pq7mj8hF1tDOd6bcO2s7NbhXkB3hsosD8fQD4eESAVS-xr2yuEaQQ2G~ZGXIGkOvxXWRIP2LY3jxzj8AYfJt7vQOhYp4qjFnjmht8Nx4lgfFhx-wEKxTdHgZMhER5lPIhjzt6Mo45vvLi7qpVXgz2zea7AJQ__"
+            src="https://s3-alpha-sig.figma.com/img/6e4d/6244/7652330b8f0be2ed4cef8daf11bf3ccb?Expires=1711929600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=G8uGWXkNNsAJbNpQuVlnZHR28f2lPxrUOcdIcuIC5Bkj4IFJZvPpqwMLoJhj2szSSRc1fgLGgEQ~ejj~7dQ-9Fl63RpnCdTJxPxfzqF7hmpocCcaKx6BdmEynoOI2volZeDIUdShX2gEgFU6yg9QaBzWusKvcScE~Np5lGozPpfEBAIoRqO26YNom0nv-UkOcE8kLFeNPBFCuvOYophA1QmLVlMwrJBMwc5TCfUWQbc9NakY5qdYX5nk5Z4ITqIyaeyTeYr7MeGMGiNcYTZRV7~DnyqaF5BnIj8bn2J6u0oz9MNRERFy6DLiYsJG51hR7B16yYJMViNDmGdzYto0Pg__"
             alt=""
           />
         </figure>

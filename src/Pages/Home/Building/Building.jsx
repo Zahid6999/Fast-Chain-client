@@ -3,13 +3,13 @@ import img1 from "../../../assets/bank/Image.png";
 
 const Building = () => {
   return (
-    <div className="3xl:max-w-[1201px] w-full mx-auto mt-[120px] p-8 3xl:p-0">
+    <div className="3xl:max-w-[1201px] w-full mx-auto mt-[120px] px-8 flex flex-col items-center 3xl:items-start  3xl:px-0">
       <h3 className="text-[40px] text-[#000420]  sora font-normal leading-[52px] tracking-[-0.64px]">
         Building for prosperity <br />
         <span className="text-[#008DA0]">for everyone</span>
       </h3>
 
-      <section className="grid grid-cols-1 lg:grid-cols-2 gap-[30px] mt-10">
+      <section className="grid grid-cols-1 lg:grid-cols-2 gap-[30px] mt-10 ">
         <div>
           <figure>
             <img
@@ -43,7 +43,7 @@ const Building = () => {
         </div>
 
         <div>
-          <section className="max-w-[470px]  border border-[var(--gray100)] flex gap-6 rounded-md">
+          <section className="3xl:max-w-[470px]  border border-[var(--gray100)] flex gap-6 rounded-md">
             <figure>
               <img
                 src="https://s3-alpha-sig.figma.com/img/9ac8/65ee/11620e3cf7069a9272e70215038b3b19?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=D5TkaqePP~YZNf-b~Yq4d1Hf8IUJvwRWtx9jIaquZ5y6Ff8awPSVFvPrqGqXRA4r6TTTCq53ut5ndMAet0cN~Ziea2ShvSW7l5etdoVEobekkr7k886EbXc4uER4I0vS-w6KhBMXUvduo3r-1EsSHqK6ToEfWMeFkc7-fFNX6oe7YHGZtrBrfac5HkCEQr0BKVGZjIHS-irUyRP7JNlwrcrShovB0B~eo2ulmUq3VCXcwqao~8giyZBenei0vjoP6ClDv7lj7bwgGwDfoRNrrRvQA8eiGEnJQF6pL~h8BQz37~H~fFAKgarIYrvlP-TZ529sSDku5ciAMasjGM3Rng__"
@@ -51,7 +51,7 @@ const Building = () => {
               />
             </figure>
             <figcaption className="py-5">
-              <p className="text-[#404252] text-[22px] font-normal sora leading-[31.9px] max-w-[215px] tracking-[-0.384px] mb-[45px]">
+              <p className="text-[#404252] text-[22px] font-normal sora leading-[31.9px] 3xl:max-w-[215px] tracking-[-0.384px] mb-[45px]">
                 Distributing global aid with Valora and the Grameen Foundation
               </p>
               <button className="text-lg text-[#008DA0] font-bold leading-[27.9px] tracking-[-0.216px] flex items-center underline hover:underline-offset-2 duration-300">
@@ -74,12 +74,12 @@ const Building = () => {
             </figcaption>
           </section>
 
-          <section className="max-w-[470px]  border border-[var(--gray100)] flex gap-6 rounded-md mt-[30px]">
+          <section className="3xl:max-w-[470px]  border border-[var(--gray100)] flex gap-6 rounded-md mt-[30px]">
             <figure>
               <img src={img1} alt="Team" className="object-cover" />
             </figure>
             <figcaption className="py-5">
-              <p className="text-[#404252] text-[22px] font-normal sora leading-[31.9px] max-w-[215px] tracking-[-0.384px] mb-[45px]">
+              <p className="text-[#404252] text-[22px] font-normal sora leading-[31.9px] 3xl:max-w-[215px] tracking-[-0.384px] mb-[45px]">
                 Creating income opportunities with Mercy Corps
               </p>
               <button className="text-lg text-[#008DA0] font-bold leading-[27.9px] tracking-[-0.216px] flex items-center underline hover:underline-offset-2 duration-300">

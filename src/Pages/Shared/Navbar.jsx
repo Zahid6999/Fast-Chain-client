@@ -128,7 +128,7 @@ const Navbar = () => {
             ))}
             <button
               type="button"
-              className="py-4 px-5 max-w-[165px] inline-flex items-center gap-x-2 text-base font-bold leading-[20.8px] tracking-[-0.256px] rounded-md border border-transparent bg-[#008DA0] text-white hover:bg-gradient-to-r from-purple-500 to-pink-500 duration-1000 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+              className="py-4 px-5  inline-flex items-center gap-x-2 text-base font-bold leading-[20.8px] tracking-[-0.256px] rounded-md border border-transparent bg-[#008DA0] text-white hover:bg-gradient-to-r from-purple-500 to-pink-500 duration-1000 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
             >
               Join Community
             </button>

@@ -1,5 +1,6 @@
 import React from "react";
 import line from "../../../assets/community/Line.png";
+import { Tabs } from "keep-react";
 
 const ProjectArea = () => {
   return (
@@ -68,44 +69,29 @@ const ProjectArea = () => {
       </section>
 
       {/* ++++++++++++++++++++++++++++++++++__________________ */}
-      <section className="bg-[#F6F6F6] max-w-full lg:max-w-[589px] ">
-        <nav
-          class="relative  flex  items-center  overflow-hidden "
-          aria-label="Tabs"
-          role="tablist"
-        >
-          <button
-            type="button"
-            class="hs-tab-active:border-b-[#008DA0] hs-tab-active:text-[#008DA0]  relative min-w-0 flex-1 bg-[#F6F6F6]   border-b-2 mt-[30px] pb-[14px] px-4  text-lg font-medium leading-[27.9px] tracking-[-0.216px] sora text-center overflow-hidden  active"
-            id="bar-with-underline-item-1"
-            data-hs-tab="#bar-with-underline-1"
-            aria-controls="bar-with-underline-1"
-            role="tab"
-          >
-            Apply for Funding
-          </button>
-          <figure>
-            <img src={line} alt="Line Shape" />
-          </figure>
-          <button
-            type="button"
-            class="hs-tab-active:border-b-[#008DA0] hs-tab-active:text-[#008DA0]  relative min-w-0 flex-1 bg-[#F6F6F6]  border-b-2 mt-[30px] pb-[14px] px-4 sora text-[#404252] hover:text-gray-700 text-lg font-normal leading-[27.9px] tracking-[-0.216px] sora text-center overflow-hidden hover:bg-gray-50 "
-            id="bar-with-underline-item-3"
-            data-hs-tab="#bar-with-underline-3"
-            aria-controls="bar-with-underline-3"
-            role="tab"
-          >
-            Recommend a Project
-          </button>
-        </nav>
+      <section section className="bg-[#F6F6F6] w-full lg:w-[589px] ">
+        <Tabs activeLabel="one">
+          <Tabs.List className="flex items-center flex-1 max-w-full justify-between px-10 mt-[30px]">
+            <Tabs.Item
+              label="one"
+              className=" bg-[#F6F6F6]  border-b-2  px-4  text-lg font-medium leading-[27.9px] tracking-[-0.216px] sora text-center focus:text-[#008DA0]"
+            >
+              Apply for Funding
+            </Tabs.Item>
+            <figure>
+              <img src={line} alt="Line Shape" />
+            </figure>
+            <Tabs.Item
+              label="two"
+              activeLabel="#008DA0"
+              className=" bg-[#F6F6F6]  border-b-2  px-4  text-lg font-medium leading-[27.9px] tracking-[-0.216px] sora text-center focus:text-[#008DA0]"
+            >
+              Recommend a Project
+            </Tabs.Item>
+          </Tabs.List>
 
-        <div class="mt-3 p-10">
-          <div
-            id="bar-with-underline-1"
-            role="tabpanel"
-            aria-labelledby="bar-with-underline-item-1"
-          >
-            {/* Input Field 1 */}
+          <Tabs.Content label="one" className="p-10">
+            {/*1 */}
             <div className="mb-5">
               <label
                 for="hs-leading-icon"
@@ -123,7 +109,7 @@ const ProjectArea = () => {
                 />
               </div>
             </div>
-            {/* Input Field 2 */}
+            {/* 2 */}
             <div className="mb-5">
               <label
                 for="hs-leading-icon"
@@ -141,7 +127,7 @@ const ProjectArea = () => {
                 />
               </div>
             </div>
-            {/* Input Field 3 */}
+            {/* 3 */}
             <div className="mb-5">
               <label
                 for="hs-leading-icon"
@@ -159,7 +145,7 @@ const ProjectArea = () => {
                 />
               </div>
             </div>
-            {/* Input Field 4 */}
+            {/* 4 */}
             <div className="mb-5">
               <label
                 for="hs-leading-icon"
@@ -177,7 +163,7 @@ const ProjectArea = () => {
                 />
               </div>
             </div>
-            {/* Input Field 5 */}
+            {/* 5 */}
             <div className="mb-5">
               <label
                 for="hs-leading-icon"
@@ -195,25 +181,6 @@ const ProjectArea = () => {
                 />
               </div>
             </div>
-            {/* Input Field 6 */}
-            <div className="mb-5">
-              <label
-                for="hs-leading-icon"
-                class="block text-lg text-[var(--text-dark1)] font-normal   leading-[27.9px] tracking-[-0.216px] mb-[9px]"
-              >
-                Cofounder emails (if relevant)
-              </label>
-              <div class="">
-                <input
-                  type="text"
-                  id="hs-leading-icon"
-                  name="hs-leading-icon"
-                  class="py-3 px-4 ps-11 block w-full border border-[var(-gray100)]  h-[60px] rounded-lg text-[17px] font-normal sora focus:outline-none focus:ring focus:ring-[var(--gray100)]"
-                  placeholder=""
-                />
-              </div>
-            </div>
-
             <button
               type="button"
               class="py-[18px] px-5 w-[200px] inline-flex justify-center items-center gap-x-2 text-lg font-normal  leading-[23.4px] tracking-[-0.288px] rounded-lg border border-transparent bg-[#008DA0] text-white hover:bg-[#42a6b3] "
@@ -244,15 +211,8 @@ const ProjectArea = () => {
                 </svg>
               </span>
             </button>
-          </div>
-
-          <div
-            id="bar-with-underline-3"
-            class="hidden"
-            role="tabpanel"
-            aria-labelledby="bar-with-underline-item-3"
-          >
-            {/* Input Field 1 */}
+          </Tabs.Content>
+          <Tabs.Content label="two" className="p-10">
             <div className="mb-5">
               <label
                 for="hs-leading-icon"
@@ -270,7 +230,7 @@ const ProjectArea = () => {
                 />
               </div>
             </div>
-            {/* Input Field 2 */}
+
             <div className="mb-5">
               <label
                 for="hs-leading-icon"
@@ -288,7 +248,7 @@ const ProjectArea = () => {
                 />
               </div>
             </div>
-            {/* Input Field 3 */}
+
             <div className="mb-5">
               <label
                 for="hs-leading-icon"
@@ -306,7 +266,7 @@ const ProjectArea = () => {
                 />
               </div>
             </div>
-            {/* Input Field 4 */}
+
             <div className="mb-5">
               <label
                 for="hs-leading-icon"
@@ -355,8 +315,8 @@ const ProjectArea = () => {
                 </svg>
               </span>
             </button>
-          </div>
-        </div>
+          </Tabs.Content>
+        </Tabs>
       </section>
     </div>
   );

@@ -55,7 +55,7 @@ const Banner = () => {
           </div>
           <figure>
             <img
-              src="https://s3-alpha-sig.figma.com/img/6f94/72bd/aa516e5636ef297f635459248493f384?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HoW4cSX5bMbxh0AQfJeSTL6G9oTAYLcvEJikxiLDsew-WCzMgIqqO2aTat7xGx5UkU03UYHvVUGLd~IjTzW78EsA0sMCB2kDMeRKC~xJ~rOhJ4kLBLdpR-o3ZuciKnGDpLjogT8boPXWwUkvhvtd-iNTIEc3X5dc9J7XLUy4rDEMkYNMptp23nRHXq3yxWRPHRuXGdW3qUfw2dk8bgDTuJkTu1ElmKBWyiHfPAGPoVKWwkxrg2y~MZztwf6vDseA9HQJFHpww6lGh8HsKTHfQ43uz41e17~Tl16VkCqrJ0sWLwM63bSIqPM1Sz-kKOUiVHDhFMsS6LVL5wDs~vzB3w__"
+              src="https://s3-alpha-sig.figma.com/img/6f94/72bd/aa516e5636ef297f635459248493f384?Expires=1711929600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cnwVDfecTuVvKjYU3x7yxwFO-v7WORTpdGcOHWAkAbrSJ-tTHgbOTkmlnI2VGoh0JHTztK4YDXQavxIxxazjJWH1p2bt3GZlCWT43589Z0vsoW~aPzT4ZnK2khM~9-BXeX~ErXTKKL7vnrRVRcWeWgWCOLRfqh0ojoD2niSJS-Ncdn6sPxM4mMtmDRnzaq3gGDGjy1ZMav1eBDavKfgTBRrB5H1HYUue3iaj10Hnh4Tw-VNpSOfJ6KAeHkJOyj3AFFnsrC95DYU4howDp-YK4TqOH4taPcn9xq33~ffKfxni6ssJKNiMAccl9B39kJ9dUWB6JahLvMjQsp9s647DNA__"
               alt=""
               className="animate-pulse"
             />

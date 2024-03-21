@@ -5,32 +5,32 @@ import discardIcon from "../../../assets/bank/logo - discord.png";
 // Array of object---------------
 const items = [
   {
-    icon: "https://s3-alpha-sig.figma.com/img/5f73/eb48/c981fa5680d42c108002645e0f18299b?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MbPZDol2LUm0XVZ8TLPkMfndYjTS16SFRXr9LWG~uhd48e8l5Rmo0-WQQjfTvxGXWgMpkfG3KhG9UaUeMNYJ0OJfhKocCOoj9XCU2xDvQKMRHNgVyhfylafwrtQoL7rMXQMu48b-y5jgH204i5OSka1XQiQ7GiSSvG7Dokibrf5Xn6gZeICkZyANSOQKo2BimcFVQ4FK34HorgwlkzDJmQN48e8SNsbVkj4IsHaF5ooQcVnG6IbCliuKfcUknRMXs8bCZ24aXQPY1sd28l-zY1Raf8oeRkujtwB7-7WA7bdgYjDi1kDJc0UoRr48DgCbJK2EyfbXF-qELL4DsPPtgg__",
+    icon: "https://s3-alpha-sig.figma.com/img/5f73/eb48/c981fa5680d42c108002645e0f18299b?Expires=1711929600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GSEll5iC5rlYmv2eoqQxMXWf4Uw0LHArrzFhBelPY1JtHKl17R1W-rBkby4C0JUj0weL8kf7lBgaGm6XZK~EiF5cXuoOQXlPL0-Jm8WX27w-4T3LM~8fDPOB0oxvavLkDoDLG36ITVILrEnG5KMWTrKlkh2jCAz2iXsgSn2oZyXZQaG3tF6WYAMbpPB5qDRkusTc~OXeJVeQIYOSb8HEHHEtHWvk1IHVFU4~88g1zPOx3npYEJ8XIwp-ngX19XldS7FKLplJ8xIrELXlkTBsL3ZqTuCybb3ClzMCM6ZqtUq9yAiqSJEFyyiKj~wC4FfmV-OTO-6PyngklER1OLUPsQ__",
     title: "Stable Value Currencies",
     text: "A growing family of user-friendly stablecoins like cUSD, cEUR, cREAL, USDC, and more, accessible via mobile and desktop devices.",
   },
   {
-    icon: "https://s3-alpha-sig.figma.com/img/1c6b/710a/d6e49001c43dd281e03cc1f0d3eee406?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LrIw20Z0kpjTTWUPweFl0HIgFUQBidqK0gpA0k8RQ8hMBT6cSl7d-~mbP77OO4BkiArpdzNL7SHR4IzSNLpTabY-XEChALtxyGfH7QHsm4RLg3Dv2UDLRG3zAyllYNP0y6ATlvdOh~bj9mDzbbZcsSH2M6Y~Zgs1y4-rxRUIaJxbg3hQ4wOIxljxS~bGyZ4ZE4jB2dxLvu64eUUQo9AMRvQE1VurM5rE1JGI91qgOwGqJCuP4jDsht7LM6NjrlW0QguftyD7XciDJwmUFqqtqqbdXRfZce-W54xwQJ5nWNyVSC4p8q-8ybtor0PgOJNy2HkfYqm8yyWxnDF9F8SAWw__",
+    icon: "https://s3-alpha-sig.figma.com/img/1c6b/710a/d6e49001c43dd281e03cc1f0d3eee406?Expires=1711929600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mEUM8j1xdc66VlhjNn1NePCK2IYMReKLb4IpSteqHniDERvfOgQZm2H40B3CkUphQ0KrEp1CMelgYwFxQGaKLGYhtpnZo~s8ZKpFH8a7tqDEyiKCHxL10THphqOTzgONL6kNmrX611A0Ck6AmfcPiveq-X3QBrhQAZBiBusb7HwuBU63ko5yO23bSnt~ECGJzdNC0T0FI6ytiP6mrIkIKEQfEh7GcPP8XAz8OCxj1f9nuOtqeornL~jnQeMZXWbB6Sa2E8BcHyyzjTh9xzt8ya0QYqe5wv8bKOe2i4Xb8KQDoOGr3hZdSuHrLmDBu7~xqu8G5eZ9RN4V5kydmEIYlw__",
     title: "Full EVM Compatibility",
     text: "Popular Ethereum tooling and full support for ERC-20 like tokens make it easy to port dApps over.",
   },
   {
-    icon: "https://s3-alpha-sig.figma.com/img/4315/cc31/7296efb2439d2422dbfec5dcb9761fa6?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NdzW5oF7BuvzLY~y7XZds5dqDMdwE~TmGEBtBOyH~ycPYrkh5zKYoWr81q~xL77z7lg7gLdQDZG77eXIp~OntUQ3WKuR7JWYklRsyKJQPaqQamxMaJkj5q~v1am9fSw6f54DX1NZw1Kj2E~BEy8PHdOjyAHNdag09k1d8W~VDX3D~J4o0XsC-9S1c-NCJWt0t7X4wCWf7xAKWeZ2JgtEwMbW3eD855tBtQiqZDfwia0kLcbKiJrt~kj7Mq9sJdZBXHOjgehoAC-tMGxAw4WehXD2Y9Yh~D2IxdlcP18rASg7dvdFAJlRkyyoLHkez2~8santEen8y4Yr44jzoQeYwA__",
+    icon: "https://s3-alpha-sig.figma.com/img/4315/cc31/7296efb2439d2422dbfec5dcb9761fa6?Expires=1711929600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nImjGVpYs3H11z5RjuxAfgMQC~4~u2y0v7avZU0I1J9m6crjKP9xi-4SduTzPLcTAHM6ufNSDf6aprZw3UWe0kC1M9AflHtsHUuGsZWYjzidM7Zhj8pSaOCINAM41Vw8ljS9tmB52sARENX9lzqwUia4GlLCsBS1QwuDy0gaffGw6rkFtErw6Y-9J9biwk2z-8Uj9dktQ5aPmdYHl4hc2uDPPdOkytONqRLt3nV7qOJ3tFDXwU9jEgT-yquZ2Jm02KDOz8O88an09sz6S-cS8A-Rvf4FHewukGknaoRtz1M~vUiU4WxtAoyz18MVlKtluwvuxwkxz0f~2tgoAT7zVQ__",
     title: "Proof-of-Stake",
     text: "Permissionless consensus algorithm powered by decentralized, carbon-negative infrastructure.",
   },
   {
-    icon: "https://s3-alpha-sig.figma.com/img/7009/26e1/752ad973520ba2684af5958ad2ed8115?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GcKslB~Ij2V81kPUfXsM0SNToE4D0eXJkcX5hSckCObKWuo20mowhT~Vs8cb7336JIjtpsFhjlQAN8vB2aEolFsmRg6V-a4c9io56rpVylcrnP9~FYEtoBqy4iipnSDY9xZaq-IQi7DBQSwiAsYvbaPxgidkYeRhY0A5otH~cWXUYwexMrMYi3DhhAAhrqT7V3YOfEpZzw3HIMbAeVrhIpoKetQOSZV5eSgLktf4cbdDHUxlB09IY6y~ggexiW2oTj1QFdLbSm5uNRHbfotGas83lipNZi5wNpFVJv5fRPnaXg6riZt9BjsZ0Rm3zYyV7oJeKl0NVJlUqCOQ7deVVA__",
+    icon: "https://s3-alpha-sig.figma.com/img/7009/26e1/752ad973520ba2684af5958ad2ed8115?Expires=1711929600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SDcM1oe-63X3W9aKYaKKYj5bAzg8KFVZLDhRCkuCjuET1NhJIvT~UD2ngL2rIGHdlcCMDf9bitedf-CaQzirS2YKsS6kJqgxk9ycICMvOtTXWekhZ3-bmuduuuFrqBT6Oal2-6ZU-kFWSyI6J0859EsgpaFAoJHuNdU~oik-917PIR2pz-18NC6UNKyeBWZE52lLEzGamvPJcqUu4RC3MUlOUVwaPkTbIL2Evk-jWaaNOCHzE5GxQWCv4T8tiHMhhNqSFNaxkQrLWj2Bj3u5LF3qY6YdNhSks-lC2PvV6fk9We8Fs3XFPuHRfNF98Z4YEbwdtE4pJAuPYMv~efaDcA__",
     title: "Number Mapping",
     text: "Popular Ethereum tooling and full support for ERC-20 like tokens make it easy to port dApps over.",
   },
   {
-    icon: "https://s3-alpha-sig.figma.com/img/52c3/43bc/df0476e8cf9b578f9be351eda5df6c28?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=a1YlGM~Xne0yCtuCa~Ag~PRTAb9e59XSTDblptiLX~RuP4kR2WuHa1WdEvWV~kCUBUEZSv3wTQIbx0g95QGeO9b0PDiIjE6iPPC2VfTsWXYJDGaLE5Ex-u36HkGejTR~cOHqo4-nDAgl-jllw7l8hfTq6tBsqOKABtbvQFe9f8VI0mk1fhzqEkfZv1iIu7HcQ3pQRj8Z8ZEWPaDwYjPBD5c7kDqlP8-VAY7QnkxGICSmT6BJLmgSV--fL39ltLAhGFVpKGaeWMEXZ93Gwl8BpWU5r0FtBzOYGt-RF6Sd6qjx~TzgsdFZ7huPSDGy3MNbWYKwxzwBs7NrzU2ptbi1pA__",
+    icon: "https://s3-alpha-sig.figma.com/img/52c3/43bc/df0476e8cf9b578f9be351eda5df6c28?Expires=1711929600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=eecMoLadRq9CwrhuTzwZm7DjDa6t2GDsK9DRwtIePuMbDZ-O9R0Fz2ahgm8wFGVsXYpkzgzwd4rXR1m0S4LZEFECmIUp42lAfFCo0wzas7f1rQ5-702SC6TGctttjmOVCazIDsOjkKX3vODXkgEoQEpkYGunTsczwG-IkV9FG6JCfK3Of-pREkE4Nu6rFMkmm~SNdle8fG1vjlIqbKQhDavZxHQi43mJvMFPPw9kcwYrofRbZSUUiRHRBA7tL-FNqUooA~8a1L1xP883-ZfymiBH424jVqP~e4wn4zi6w2f3K0m37ri~C7Avd5S7CVTt4tUDRhnar5DvWrOH6zcZGA__",
     title: "Fast & Secure System",
     text: "Permissionless consensus algorithm powered by decentralized, carbon-negative infrastructure.",
   },
   {
-    icon: "https://s3-alpha-sig.figma.com/img/2d17/ffdc/bfbb3e4e8ec6d3694afe8536684f25e0?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UialJkPTpmKpqAKRSbBAyEbucKN1Hhc3nT2K6H8wGlYbAxsU5ffZHYG9rvhjNh00w-r1Y0epNv3HperMZGDNzPwzR0iBykIfp0cLaOpCiRUeVlluUWfDr1jlULhDGo~4dOCCmPIXd3oFUHNckNseWn9RI8RW-acCkYvoRyWEwJ9X3sZy9gwrWn~BUCjZ93IuLQjo-fbNU1Ij-FvMSKlx7DJG6RO4Z3Qem7PnELV3aZmulzl1fgUN102S0-ENEKNXpYW1HDvHzbW6Naf9svY1kC78RjdxNpp0zdqbLTxlKxoLy97xheQoLmdW3Onxo~dsCZ4rZnt7EFU0T3IJS59m8g__",
+    icon: "https://s3-alpha-sig.figma.com/img/2d17/ffdc/bfbb3e4e8ec6d3694afe8536684f25e0?Expires=1711929600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=obegCTV700xHnFIzM~NBsf9Mjcrtt6bnFVebV-1gRnE~HNrxng0yySD0fSHHTvemmz4vMEWEXZe9jC8Bn~kkbBplWR50BRAAIlzoapvfe5GKjSr99ZO3npAnzUbqWMAXL8R6KV7Lg59v-5-3Ndlb8GphYCWRVQT47J59EuBsOeqeMsRlkkLEyzbiT4WvoFg5J95Kqo8GcU0P2FP5iY88pF9qzmUlvJavHlvGxHRVvkaDGBElLcSqB18wifCr9XOrJo0fTueq6i2zKKAM3LVuexvRykIf3~Z6iPKR3PXix4t3nMssr8mD-YwkLCRxA~6~E3r8Npkn~kTit~n19M6pmw__",
     title: "Low and Multi Currency Gas Fees",
     text: "Popular Ethereum tooling and full support for ERC-20 like tokens make it easy to port dApps over.",
   },
@@ -83,7 +83,7 @@ const Platform = () => {
 
       {/* _______________________service details card___________________________ */}
 
-      <section className="3xl:max-w-[1202px]  w-full mx-auto mt-[100px] pb-[100px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-[128px] gap-y-[75px] px-7 sm:px-10 md:px-20 3xl:px-0">
+      <section className="3xl:max-w-[1202px]  w-full mx-auto mt-[100px] pb-[100px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-[128px] gap-y-[75px] px-7 sm:px-10 md:px-20  xl:px-32 3xl:px-0">
         {items?.map((item, i) => (
           <ItemCard key={i} item={item}></ItemCard>
         ))}

@@ -9,12 +9,12 @@ import logo6 from "../../../assets/bank/logo (15).png";
 // TwoCards----------------array of object
 const twoCards = [
   {
-    icon: "https://s3-alpha-sig.figma.com/img/467a/465c/84e3368bf701b44d4df1f01a6e6a4b49?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YUr45O~A8p0csquxF88krvps0vvxNc~qa0wPhpYM6bn2uwScy79n73nW54FEKP~pxY2p~vvf3Ps6AQPsvrmYZQ-iURUZH6SE8ZLAqMRcdkVYWeRsFwllaHyHqomEciUEsHNFHF4Ls2J6cMKzSdVNPB6H988qRhGtn6-HqJHdUFHmdyAx1KKah601-SpVs1sG1PQMvH3YtkbSB8DCLwTos8SXFmLpZBI3jWSU2kyFRmIGv3cy6wovsUNOl8kz1-DHRzvhJ74fD2uL3f14Njsy0e9~GWo2h9wap9tZZd6M3QDcEU1UP5hiusRmAAcBLoOpqM20hNtG8yLBgGIdxe0zew__",
+    icon: "https://s3-alpha-sig.figma.com/img/467a/465c/84e3368bf701b44d4df1f01a6e6a4b49?Expires=1711929600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=eeehUted3xajW6yHzTkPw7mlRpcmhuPWii98HZrtDy5eZr6P~-tMpf9hQKcyPUc~h5DsTkny6VTLxQsDn45OPBwFni8vUZmkZ6nenA6k2FIoCxt-daNpriahccM9GpEJUQcEms8~ekqzINN-uGB9KfU9ntq-8evYsquxjC5au6PaydXT-YvWo7j6JR2KG5crvhWeBL9UnR-EIhzurqyxk4xsxklA1kDGXQfjyr-oGTLJRECzXYXV7f3hOL22OGbJL1gNxVqjc-IyJJZBxQC-5-Qv~YAeicaaRgccPnvdrOBPWsBQ2eS7p6UI83kw1p4IS2MIe4GiYy5F~IryDYpkHA__",
     text: "Boost security, and earn rewards as you explore.",
     button: "Apply for pre-seed funding",
   },
   {
-    icon: "https://s3-alpha-sig.figma.com/img/691b/66e7/fe414d3df76486aa542118c9cb3e4dfa?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Xvk4qSo5u5k1J6uYDKXger2V4FmfT62TUaDnUbsKtAT3amwhlR4qzY6iKtMRZXvBp6pzxju515f5zL-HmtKt~s6-mclbFzMqVe01XL6H6ejMH-~WMNBeltVrHelFSpa03IQVDDcTs-ECjd9t5Tq6XjJSkDW4jb-j0sau5vm-1e2WKHAD7ifHh52FEVEwGiqFZDRZODo~PP38qJVanJkpSbvWUhM3UXMBZJQcPSrkFgJnZp4hJXM93QP~cfTZpd5L7Nh6iS5NkepRwsFtm5Sjs4JrwqO2Mtq6UoNX9lDnB4EmKMZ6vL3rFJr3SOVlnQtwMhaUu-cqISOhgTO51KK7Sw__",
+    icon: "https://s3-alpha-sig.figma.com/img/691b/66e7/fe414d3df76486aa542118c9cb3e4dfa?Expires=1711929600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LAKqhgNMLVT8NSJoCVTc9fS3xSjzn9YfJ4hqJYFzKbnzv3J9xPmIJKojTixDEAMSNI-cjdwADkmNiABI4rK8J-yMZLsN2BmLi70pK8gHpIFkVKS6kw0P4IsQ59Tz0N-mn5T5ojXk9wXWFF~owfH1yeFUcennd5CU9A2mstLEKrWCWmmWdnQD6xnfRBtj0C6ScZLdWoJqWw8JGSCGRASouRUxvezMuSJgH6K8CP9-8InQHEVE2uPUmSe9q011Ciqxb4JjhhePHbbvK37R7G4wUPwQXgjhngJy5vEm-2c8BUzWB58hy~Gl-BZJi6P40nXpdm3c4nlHBFpod6rVvCBTtA__",
     text: "Boost security, and earn rewards as you explore.",
     button: "Apply for venture funding",
   },

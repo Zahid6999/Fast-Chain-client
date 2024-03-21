@@ -4,7 +4,7 @@ import pointLine from "../../../assets/point line.svg";
 const ClimateArea = () => {
   return (
     <div className="headerBg py-[100px]">
-      <article className="3xl:max-w-[1202px] w-full mx-auto px-4 sm:px-10 md:px-12 xl:px-20 3xl:px-0 flex flex-col justify-center">
+      <article className="3xl:max-w-[1202px] w-full mx-auto px-4 sm:px-10 md:px-12 xl:px-20 3xl:px-0 flex flex-col items-center 3xl:items-start">
         <h2 className="text-[40px] text-white font-normal leading-[52px] tracking-[-0.64px] sora ">
           Building for climate change
         </h2>
@@ -12,15 +12,21 @@ const ClimateArea = () => {
           Creating the world's first carbon-neutral blockchain <br /> was just
           the beginning
         </p>
-        <section className="flex flex-col lg:flex-row lg:gap-20 3xl:gap-[120px]">
-          <img
-            src="https://s3-alpha-sig.figma.com/img/3e67/f02f/3c6725fa5e229a577cee3f949b52e7b6?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Sjcv8eboHP6kPQuWAdCdkFFUUoUDBzYKtAKiTNmELqVCCSk5qVzKvFIf6BLMcKHKC-nidsF3LdNTHzxivo0z87fKLsTi8C41jabkBkwE9Kuf4MbijzQ0HonVT9nDIBSasV2f2ZyPyLWbsjyQp04XAAbJtlUgZUAn97vZOH8SmpFHz0J~n3MA8kMsAQ4Y0yug5M9Yc4FTgTQFHGoAxGJuw4GB5HC6a2yI-dsEpCC4WPk4M7OSTCPb~qoX3WA-6lgcbuqYjoO1sjAfZp5eUS3c0DbTn6QY6Zu9MwYQSSelwFN4jWe4vfSzIdCzSMRKOhIe93wtvt00rrqU6HoB-dNuYQ__"
-            alt=""
-            className="max-w-[460px]"
-          />
+        <section className="flex flex-col lg:flex-row justify-center 3xl:justify-normal lg:gap-20 3xl:gap-[120px]">
+          <figure>
+            <img
+              src="https://s3-alpha-sig.figma.com/img/3e67/f02f/3c6725fa5e229a577cee3f949b52e7b6?Expires=1711929600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=murDkmm0PNJJ4K88hCmebG4tqONF2pg9zO2ZBvJDhWCtyWoNc61BaVMVRCPO-yk31bARptFmhIJuYAUcPnYzi9VSeeOlSVP0aTMcoQkwCjTIotkF-H9P6S3TxXHJ-gq6KCDKWh27Gnt2R4dDC4r07oXJDutNxp4771MmfcI6VG4slZz6WIlPlHRtPwu5Ev1piXMew53ow06EZiSfxc4cy5tdA7OJRQYrBUfJb22aa0MQA91nDp9AchmkVD5nFLiGm-302-yhJMrnSr3JCoi1vkQtX80R~viQ9tBfbs9pIEPypkchn18b~eJt9SUdFkC5Q1ly6sF0fKrjBvPMxh1y0g__"
+              alt=""
+              className="max-w-[460px]"
+            />
+          </figure>
           <div className="flex gap-[4%] sm:gap-[51px] mt-20 lg:mt-0">
             <figure>
-              <img src={pointLine} alt="Point Line" className="animate-pulse" />
+              <img
+                src={pointLine}
+                alt="Point Line"
+                className="animate-pulse  "
+              />
             </figure>
             <section>
               <figcaption>
